@@ -1,0 +1,36 @@
+@media(max-width:1000px){
+    .contents {
+        display:flex;
+        flex-wrap: wrap;
+    }
+    
+    .link {
+        width:50%;
+    }
+
+}
+
+@media(max-width:670px) {
+    .contents {
+        display:flex;
+        flex-direction: column;
+    }
+    
+    .link {
+        flex:auto;
+        margin:0 auto;
+    }
+}
+
+@media(min-width:1001px) {
+    .contents {
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .link {
+        flex:auto;
+        width:50%;
+    }
+
+}
