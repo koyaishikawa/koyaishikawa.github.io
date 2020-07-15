@@ -26,6 +26,10 @@ header {
     line-height:90px;
 }
 
+.main{
+    display:none;
+}
+
 
 .profile {
     display:flex;
@@ -51,7 +55,6 @@ header {
 }
 
 .profile-txt{
-    width:500px;
     margin:0 auto;
     background-color:rgb(121, 121, 121,0.0);
     padding:100px 100px 100px 0px;
@@ -71,6 +74,14 @@ header {
 .contents {
     height:1200px;
     text-align:center;
+}
+
+.explain {
+    display:none;
+}
+
+.explain-active{
+    display:block;
 }
 
 .fa-pencil-alt, .fa-sticky-note, .fa-github, .fa-kaggle{

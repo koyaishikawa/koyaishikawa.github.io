@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="ja">
  <head>
- <meta charset="utf-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>KoyaPortfolio</title>
- <link rel="stylesheet" href="css/style.css">
- <link rel="stylesheet" href="css/responsive.css">
- <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KoyaPortfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
  </head>
  
- <body>
+ <body id='body'>
  <header>
      <div class="header-logo"><i class="fab fa-laravel"></i>Koya Ishikawa</div>
      <div class="header-list">
@@ -24,13 +25,13 @@
      <div class="clear"></div>
  </header>
  
- <div class="main">
+ <div id='main' class="main">
 
      <div class="profile">
-         <div class="profile-logo">
+         <div id='profile-logo' class="profile-logo">
              <img src="profile.png">
          </div>
-         <div class="profile-txt">
+         <div id='profile-txt' class="profile-txt">
              <h1>石川　洸矢</h1>
              1996年4月28日生   M1   
              <h2>経歴</h2>
@@ -82,5 +83,7 @@
      </div>
      <div class="list"></div>
  </footer>
+
+ <script src="js/script.js"></script>
  </body>
 </html>
